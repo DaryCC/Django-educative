@@ -1,9 +1,9 @@
 from django.urls import path
-from . import views
+from firstapp import views
 
 urlpatterns = [
     path('', views.index,name="index"),
     path('home/',views.home,name="home"),
     path('educative/',views.educative,name="educative"),
-    path('formulario/',views.searchform,name="formulario")
+    path('forms/',views.forms,name="form"),
 ]
