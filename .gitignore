@@ -1,2 +1,4 @@
 wpo-back
 prueba
+*.pyc
+/.README.md.~undo-tree~
