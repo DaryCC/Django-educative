@@ -1,2 +1,4 @@
 wpo-back
 prueba
+*.~undo-tree~
+*.pyc
