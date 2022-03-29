@@ -9,3 +9,10 @@ class TestForm (forms.Form):
     integer = forms.IntegerField(initial=0)
     email = forms.EmailField(initial="correo")
 
+    def clean_integer(self):
+        # self.is_valid()
+        # integer= self.cleaned_data.get("integer")
+        integer= self.cleaned_data["integer"]
+        if integer <= 10:
+            raise forms.ValidationError("The integer must be greater than 10")
+        return integer

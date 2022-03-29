@@ -35,3 +35,5 @@ def searchform(request):
 #         text=form.cleaned_data.get("text")
 #         print("puta madre no se que está pasando.")
 #     return render(request,"Models/formulario.html",{"data":data,"text":text})
+
+
