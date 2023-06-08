@@ -1,5 +1,13 @@
 wpo-back
 prueba
+*.~undo-tree~
+*.pyc
+*.log
+migrations
+node_modules
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
